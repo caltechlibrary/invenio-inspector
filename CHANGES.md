@@ -1,6 +1,6 @@
-# Change log for %PROJECT_NAME%
+# Change log for invenio-inspector
 
-## Version 0.0.0 (%CREATION_DATE%)
+## Version 0.0.0 (2022-08-17)
 
-Project repository created at https://github.com/caltechlibrary/%PROJECT_URLNAME%
-by %AUTHOR_NAME%.
+Project repository created at https://github.com/caltechlibrary/invenio-inspector
+by Mike Hucka.

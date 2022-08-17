@@ -1,9 +1,9 @@
 # =============================================================================
 # @file    Makefile
 # @brief   Makefile for some steps in creating new releases on GitHub
-# @date    %CREATION_DATE%
+# @date    2022-08-17
 # @license Please see the file named LICENSE in the project directory
-# @website https://github.com/caltechlibrary/%PROJECT_URLNAME%
+# @website https://github.com/caltechlibrary/invenio-inspector
 # =============================================================================
 
 .ONESHELL: 				# Run all commands in the same shell.
@@ -140,10 +140,10 @@ report: vars
 # make lint & make test ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 lint:
-	flake8 %PROJECT_NAME%
+	flake8 invenio-inspector
 
 test tests:
-	pytest -v --cov=%PROJECT_NAME% -l tests/
+	pytest -v --cov=invenio-inspector -l tests/
 
 
 # make install ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,9 +1,9 @@
 # =========================================================== -*- conf-toml -*-
 # @file    .flake8
 # @brief   Project-wide Flake8 configuration
-# @created %CREATION_DATE%
+# @created 2022-08-17
 # @license Please see the file named LICENSE in the project directory
-# @website https://github.com/caltechlibrary/%PROJECT_URLNAME%
+# @website https://github.com/caltechlibrary/invenio-inspector
 #
 # Note: as of version 4.0, flake8 does NOT read global configuration files
 # from ~/.flake8 or ~/.config/flake8.  If you had such a config file of your
@@ -40,4 +40,4 @@ ignore =
 per-file-ignores =
     # The plac.annotations lines contain hand-aligned text, which triggers
     # flake8's check for spaces after commas.
-    %PROJECT_NAME%/__main__.py: E241, E304, E402
+    invenio-inspector/__main__.py: E241, E304, E402
